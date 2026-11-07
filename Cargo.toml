@@ -5,6 +5,9 @@ edition = "2024"
 description = "Mirror and control an Android device inside a terminal, powered by scrcpy-server"
 license = "Apache-2.0"
 repository = "https://github.com/leset0ng/scrcpyt"
+readme = "README.md"
+keywords = ["scrcpy", "android", "terminal", "mirror", "adb"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1"

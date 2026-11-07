@@ -23,7 +23,19 @@ On macOS:
 brew install scrcpy ffmpeg pkg-config
 ```
 
-## Build
+On Debian / Ubuntu:
+
+```sh
+sudo apt install scrcpy adb pkg-config libavcodec-dev libavformat-dev libswscale-dev
+```
+
+## Install
+
+```sh
+cargo install scrcpyt
+```
+
+Or build from source:
 
 ```sh
 cargo build --release
